@@ -1,4 +1,4 @@
-# VDI 2860 Ontology-Design-Patterns
+# VDI 2860 Ontology-Design-Pattern
 
 VDI 2860 [1] defines terms to describe handling operations. It contains a taxonomy of the most relevant terms of this field. Unfortunately, this specification is only available in German. An unofficial translation can be found in this [wiki article](https://github.com/hsu-aut/Industrial-Standard-Ontology-Design-Patterns/wiki/VDI-2860---Translations-(unofficial)).
 
