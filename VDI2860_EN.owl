@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.hsu-ifa.de/ontologies/VDI2860#"
+     xml:base="http://www.hsu-ifa.de/ontologies/VDI2860"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Allocating -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Allocating">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingColor -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingColor">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingForm -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingForm">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingIdentity -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingIdentity">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingOrientation -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingOrientation">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingPosition -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingPosition">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingPresence -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingPresence">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingSize -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingSize">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingWeight -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingWeight">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Arranging -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Arranging">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Controlling -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Conveying -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Conveying">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Counting -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Counting">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Dividing -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Dividing">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Forking -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Forking">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Forwarding -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Forwarding">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Guiding -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Guiding">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Handling -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Handling"/>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Holding -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Holding">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Securing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Measuring -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Measuring">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#MeasuringOrientation -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#MeasuringOrientation">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#MeasuringPosition -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#MeasuringPosition">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Merging -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Merging">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Moving -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Moving">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Orienting -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Orienting">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#PartiallySortedStoring -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#PartiallySortedStoring">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Storing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Pivoting -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Pivoting">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Pooling -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Pooling">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Positioning -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Positioning">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Releasing -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Releasing">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Securing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Rotating -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Rotating">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Securing -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Securing">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Separating -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Separating">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Slackening -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Slackening">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Releasing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#SortedStoring -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#SortedStoring">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Storing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Sorting -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Sorting">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#AlteringQuantities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Storing -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Storing">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Tensioning -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Tensioning">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Holding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Translating -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Translating">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Moving"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#UnsortedStoring -->
+
+    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#UnsortedStoring">
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Storing"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
