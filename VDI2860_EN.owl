@@ -48,7 +48,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingColor -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingColor">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing"/>
     </owl:Class>
     
 
@@ -56,7 +56,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingForm -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingForm">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing"/>
     </owl:Class>
     
 
@@ -64,7 +64,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingIdentity -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingIdentity">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing"/>
     </owl:Class>
     
 
@@ -72,7 +72,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingOrientation -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingOrientation">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing"/>
     </owl:Class>
     
 
@@ -80,7 +80,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingPosition -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingPosition">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing"/>
     </owl:Class>
     
 
@@ -88,7 +88,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingPresence -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingPresence">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing"/>
     </owl:Class>
     
 
@@ -96,7 +96,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingSize -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingSize">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing"/>
     </owl:Class>
     
 
@@ -104,7 +104,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingWeight -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnalyzingWeight">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Analyzing"/>
     </owl:Class>
     
 
@@ -198,7 +198,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#MeasuringOrientation -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#MeasuringOrientation">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Measuring"/>
     </owl:Class>
     
 
@@ -206,7 +206,7 @@
     <!-- http://www.hsu-ifa.de/ontologies/VDI2860#MeasuringPosition -->
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#MeasuringPosition">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Controlling"/>
+        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Measuring"/>
     </owl:Class>
     
 
