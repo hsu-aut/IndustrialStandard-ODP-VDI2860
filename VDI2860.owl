@@ -6,7 +6,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860"/>
+    <owl:Ontology rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860">
+        <owl:versionIRI rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860/1.4.2"/>
+    </owl:Ontology>
     
 
 
