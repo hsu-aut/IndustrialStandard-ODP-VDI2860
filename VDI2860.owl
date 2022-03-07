@@ -128,7 +128,7 @@
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#GroessePruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="en">AnalyzingSize</rdfs:label>
-        <rdfs:label xml:lang="de">GrößePrüfen</rdfs:label>
+        <rdfs:label xml:lang="de">GroessePruefen</rdfs:label>
     </owl:Class>
     
 
