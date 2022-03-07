@@ -37,8 +37,8 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnwesenheitPruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
-        <rdfs:label xml:lang="en">AnalyzingPresence</rdfs:label>
         <rdfs:label xml:lang="de">AnwesenheitPruefen</rdfs:label>
+        <rdfs:label xml:lang="en">CheckingPresence</rdfs:label>
     </owl:Class>
     
 
@@ -77,7 +77,7 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#FarbePruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
-        <rdfs:label xml:lang="en">AnalyzingColor</rdfs:label>
+        <rdfs:label xml:lang="en">CheckingColor</rdfs:label>
         <rdfs:label xml:lang="de">FarbePruefen</rdfs:label>
     </owl:Class>
     
@@ -97,7 +97,7 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#FormPruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
-        <rdfs:label xml:lang="en">AnalyzingForm</rdfs:label>
+        <rdfs:label xml:lang="en">CheckingForm</rdfs:label>
         <rdfs:label xml:lang="de">FormPruefen</rdfs:label>
     </owl:Class>
     
@@ -117,7 +117,7 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#GewichtPruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
-        <rdfs:label xml:lang="en">AnalyzingWeight</rdfs:label>
+        <rdfs:label xml:lang="en">CheckingWeight</rdfs:label>
         <rdfs:label xml:lang="de">GewichtPruefen</rdfs:label>
     </owl:Class>
     
@@ -127,7 +127,7 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#GroessePruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
-        <rdfs:label xml:lang="en">AnalyzingSize</rdfs:label>
+        <rdfs:label xml:lang="en">CheckingSize</rdfs:label>
         <rdfs:label xml:lang="de">GroessePruefen</rdfs:label>
     </owl:Class>
     
@@ -156,7 +156,7 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#IdentitaetPruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
-        <rdfs:label xml:lang="en">AnalyzingIdentity</rdfs:label>
+        <rdfs:label xml:lang="en">CheckingIdentity</rdfs:label>
         <rdfs:label xml:lang="de">IdentitaetPruefen</rdfs:label>
     </owl:Class>
     
@@ -166,8 +166,8 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Kontrollieren">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handhaben"/>
-        <rdfs:label xml:lang="en">Controlling</rdfs:label>
         <rdfs:label xml:lang="de">Kontrollieren</rdfs:label>
+        <rdfs:label xml:lang="en">Testing</rdfs:label>
     </owl:Class>
     
 
@@ -236,7 +236,7 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#OrientierungPruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
-        <rdfs:label xml:lang="en">AnalyzingOrientation</rdfs:label>
+        <rdfs:label xml:lang="en">CheckingOrientation</rdfs:label>
         <rdfs:label xml:lang="de">OrientierungPruefen</rdfs:label>
     </owl:Class>
     
@@ -256,7 +256,7 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#PositionPruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
-        <rdfs:label xml:lang="en">AnalyzingPosition</rdfs:label>
+        <rdfs:label xml:lang="en">CheckingPosition</rdfs:label>
         <rdfs:label xml:lang="de">PositionPruefen</rdfs:label>
     </owl:Class>
     
@@ -276,7 +276,7 @@
 
     <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen">
         <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Kontrollieren"/>
-        <rdfs:label xml:lang="en">Analyzing</rdfs:label>
+        <rdfs:label xml:lang="en">Checking</rdfs:label>
         <rdfs:label xml:lang="de">Pruefen</rdfs:label>
     </owl:Class>
     
