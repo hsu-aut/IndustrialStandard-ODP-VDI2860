@@ -6,8 +6,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860">
-        <owl:versionIRI rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860/1.4.2"/>
+    <owl:Ontology rdf:about="http://www.w3id.org/hsu-aut/VDI2860">
+        <owl:versionIRI rdf:resource="http://www.w3id.org/hsu-aut/VDI2860/2.0.0"/>
     </owl:Ontology>
     
 
@@ -23,419 +23,419 @@
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Abteilen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Abteilen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Abteilen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Abteilen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern"/>
         <rdfs:label xml:lang="de">Abteilen</rdfs:label>
         <rdfs:label xml:lang="en">Separating</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#AnwesenheitPruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#AnwesenheitPruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#AnwesenheitPruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#AnwesenheitPruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="de">AnwesenheitPruefen</rdfs:label>
         <rdfs:label xml:lang="en">CheckingPresence</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Bewegen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handhaben"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Bewegen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Handhaben"/>
         <rdfs:label xml:lang="de">Bewegen</rdfs:label>
         <rdfs:label xml:lang="en">Moving</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Drehen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Drehen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Drehen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Drehen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="de">Drehen</rdfs:label>
         <rdfs:label xml:lang="en">Rotating</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Entspannen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Entspannen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Entspannen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Loesen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Entspannen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Loesen"/>
         <rdfs:label xml:lang="de">Entspannen</rdfs:label>
         <rdfs:label xml:lang="en">Slackening</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#FarbePruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#FarbePruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#FarbePruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#FarbePruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="en">CheckingColor</rdfs:label>
         <rdfs:label xml:lang="de">FarbePruefen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Foerdern -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Foerdern -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Foerdern">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Foerdern">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="en">Conveying</rdfs:label>
         <rdfs:label xml:lang="de">Foerdern</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#FormPruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#FormPruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#FormPruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#FormPruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="en">CheckingForm</rdfs:label>
         <rdfs:label xml:lang="de">FormPruefen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Fuehren -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Fuehren -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Fuehren">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Fuehren">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="de">Fuehren</rdfs:label>
         <rdfs:label xml:lang="en">Guiding</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#GewichtPruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#GewichtPruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#GewichtPruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#GewichtPruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="en">CheckingWeight</rdfs:label>
         <rdfs:label xml:lang="de">GewichtPruefen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#GroessePruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#GroessePruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#GroessePruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#GroessePruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="en">CheckingSize</rdfs:label>
         <rdfs:label xml:lang="de">GroessePruefen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Halten -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Halten -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Halten">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Sichern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Halten">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Sichern"/>
         <rdfs:label xml:lang="de">Halten</rdfs:label>
         <rdfs:label xml:lang="en">Holding</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Handhaben -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Handhaben -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Handhaben">
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Handhaben">
         <rdfs:label xml:lang="de">Handhaben</rdfs:label>
         <rdfs:label xml:lang="en">Handling</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#IdentitaetPruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#IdentitaetPruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#IdentitaetPruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#IdentitaetPruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="en">CheckingIdentity</rdfs:label>
         <rdfs:label xml:lang="de">IdentitaetPruefen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Kontrollieren -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Kontrollieren -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Kontrollieren">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handhaben"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Kontrollieren">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Handhaben"/>
         <rdfs:label xml:lang="de">Kontrollieren</rdfs:label>
         <rdfs:label xml:lang="en">Testing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Loesen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Loesen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Loesen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Sichern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Loesen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Sichern"/>
         <rdfs:label xml:lang="de">Loesen</rdfs:label>
         <rdfs:label xml:lang="en">Releasing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handhaben"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Handhaben"/>
         <rdfs:label xml:lang="en">AlteringQuantities</rdfs:label>
         <rdfs:label xml:lang="de">MengenVeraendern</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Messen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Messen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Messen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Kontrollieren"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Messen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Kontrollieren"/>
         <rdfs:label xml:lang="en">Measuring</rdfs:label>
         <rdfs:label xml:lang="de">Messen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Ordnen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Ordnen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Ordnen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Ordnen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="en">Arranging</rdfs:label>
         <rdfs:label xml:lang="de">Ordnen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Orientieren -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Orientieren -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Orientieren">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Orientieren">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="de">Orientieren</rdfs:label>
         <rdfs:label xml:lang="en">Orienting</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#OrientierungMessen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#OrientierungMessen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#OrientierungMessen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Messen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#OrientierungMessen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Messen"/>
         <rdfs:label xml:lang="en">MeasuringOrientation</rdfs:label>
         <rdfs:label xml:lang="de">OrientierungMessen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#OrientierungPruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#OrientierungPruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#OrientierungPruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#OrientierungPruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="en">CheckingOrientation</rdfs:label>
         <rdfs:label xml:lang="de">OrientierungPruefen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#PositionMessen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#PositionMessen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#PositionMessen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Messen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#PositionMessen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Messen"/>
         <rdfs:label xml:lang="en">MeasuringPosition</rdfs:label>
         <rdfs:label xml:lang="de">PositionMessen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#PositionPruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#PositionPruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#PositionPruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#PositionPruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Pruefen"/>
         <rdfs:label xml:lang="en">CheckingPosition</rdfs:label>
         <rdfs:label xml:lang="de">PositionPruefen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Positionieren -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Positionieren -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Positionieren">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Positionieren">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="de">Positionieren</rdfs:label>
         <rdfs:label xml:lang="en">Positioning</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Pruefen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Pruefen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Kontrollieren"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Pruefen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Kontrollieren"/>
         <rdfs:label xml:lang="en">Checking</rdfs:label>
         <rdfs:label xml:lang="de">Pruefen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Schwenken -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Schwenken -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Schwenken">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Schwenken">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="en">Pivoting</rdfs:label>
         <rdfs:label xml:lang="de">Schwenken</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Sichern -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Sichern -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Sichern">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handhaben"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Sichern">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Handhaben"/>
         <rdfs:label xml:lang="en">Securing</rdfs:label>
         <rdfs:label xml:lang="de">Sichern</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Sortieren -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Sortieren -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Sortieren">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Sortieren">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern"/>
         <rdfs:label xml:lang="de">Sortieren</rdfs:label>
         <rdfs:label xml:lang="en">Sorting</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Spannen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Spannen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Spannen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Halten"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Spannen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Halten"/>
         <rdfs:label xml:lang="de">Spannen</rdfs:label>
         <rdfs:label xml:lang="en">Tensioning</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Speichern -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Speichern -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Speichern">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Handhaben"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Speichern">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Handhaben"/>
         <rdfs:label xml:lang="de">Speichern</rdfs:label>
         <rdfs:label xml:lang="en">Storing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Teilen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Teilen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Teilen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Teilen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern"/>
         <rdfs:label xml:lang="en">Dividing</rdfs:label>
         <rdfs:label xml:lang="de">Teilen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Vereinigen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Vereinigen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Vereinigen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Vereinigen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern"/>
         <rdfs:label xml:lang="en">Pooling</rdfs:label>
         <rdfs:label xml:lang="de">Vereinigen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Verschieben -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Verschieben -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Verschieben">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Verschieben">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="en">Translating</rdfs:label>
         <rdfs:label xml:lang="de">Verschieben</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Verzweigen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Verzweigen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Verzweigen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Verzweigen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern"/>
         <rdfs:label xml:lang="en">Forking</rdfs:label>
         <rdfs:label xml:lang="de">Verzweigen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Weitergeben -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Weitergeben -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Weitergeben">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Bewegen"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Weitergeben">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Bewegen"/>
         <rdfs:label xml:lang="en">Forwarding</rdfs:label>
         <rdfs:label xml:lang="de">Weitergeben</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Zaehlen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Zaehlen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Zaehlen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Kontrollieren"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Zaehlen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Kontrollieren"/>
         <rdfs:label xml:lang="en">Counting</rdfs:label>
         <rdfs:label xml:lang="de">Zaehlen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Zusammenfuehren -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Zusammenfuehren -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Zusammenfuehren">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Zusammenfuehren">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern"/>
         <rdfs:label xml:lang="en">Merging</rdfs:label>
         <rdfs:label xml:lang="de">Zusammenfuehren</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#Zuteilen -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#Zuteilen -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#Zuteilen">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#MengenVeraendern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#Zuteilen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#MengenVeraendern"/>
         <rdfs:label xml:lang="en">Allocating</rdfs:label>
         <rdfs:label xml:lang="de">Zuteilen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#geordnetesSpeichern -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#geordnetesSpeichern -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#geordnetesSpeichern">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Speichern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#geordnetesSpeichern">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Speichern"/>
         <rdfs:label xml:lang="de">GeordnetesSpeichern</rdfs:label>
         <rdfs:label xml:lang="en">SortedStoring</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#teilgeordnetesSpeichern -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#teilgeordnetesSpeichern -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#teilgeordnetesSpeichern">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Speichern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#teilgeordnetesSpeichern">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Speichern"/>
         <rdfs:label xml:lang="en">PartiallySortedStoring</rdfs:label>
         <rdfs:label xml:lang="de">TeilgeordnetesSpeichern</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.hsu-ifa.de/ontologies/VDI2860#ungeordnetesSpeichern -->
+    <!-- http://www.w3id.org/hsu-aut/VDI2860#ungeordnetesSpeichern -->
 
-    <owl:Class rdf:about="http://www.hsu-ifa.de/ontologies/VDI2860#ungeordnetesSpeichern">
-        <rdfs:subClassOf rdf:resource="http://www.hsu-ifa.de/ontologies/VDI2860#Speichern"/>
+    <owl:Class rdf:about="http://www.w3id.org/hsu-aut/VDI2860#ungeordnetesSpeichern">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/hsu-aut/VDI2860#Speichern"/>
         <rdfs:label xml:lang="de">UngeordnetesSpeichern</rdfs:label>
         <rdfs:label xml:lang="en">UnsortedStoring</rdfs:label>
     </owl:Class>
